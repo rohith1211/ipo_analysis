@@ -1,0 +1,200 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header { background: #004085; color: white; padding: 15px; text-align: center; }
+/* Navbar Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 12px;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Right Section: Search and Login in the Same Line */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between search and login */
+}
+
+/* Search Box Container */
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    overflow: hidden;
+    width: 250px; /* Wider Search Box */
+}
+
+/* Search Input */
+.search-box {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+/* Search Button */
+.search-btn {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+/* Login Button */
+.login-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Login Form Styling */
+.login-form {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 220px;
+    display: none; /* Initially hidden */
+}
+
+.login-form input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 8px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.login-form a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.signup-btn {
+    background-color: #ff9800;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+}
+
+/* Hide login form initially */
+.hidden {
+    display: none;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+/* Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* INPUT FIELDS */
+.modal input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* SUBMIT BUTTON */
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+}
+.sections {
+    text-align: center; /* Center align text */
+    margin-top: auto; /* Push content to bottom */
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Dark footer for better visibility */
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+

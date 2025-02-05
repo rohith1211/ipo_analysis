@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPO Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to IPO Investments</h1>
+    </header>
+    
+    <nav>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">IPO</a>
+            <a href="#">Stocks</a>
+            <a href="#">Brokers</a>
+        </div>
+        
+        <div class="nav-right">
+            <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-box">
+                <button class="search-btn">🔍</button>
+            </div>
+    
+                <!-- Login Button -->
+        <button class="login-btn" onclick="openModal()">Login</button>
+
+        <!-- The Modal -->
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <input type="text" placeholder="Email or Mobile No">
+                <input type="password" placeholder="Password">
+                <button>Login</button>
+                <p><a href="#">Forgot Password?</a></p>
+                <hr>
+                <button class="signup-btn">New User? Sign Up</button>
+            </div>
+        </div>
+
+    </nav>
+    
+   
+    <!-- <div class="sections">
+        <h2>About the Company</h2>
+        <p>Learn more about our company and why investing in this IPO is a great opportunity.</p>
+    </div> -->
+    
+    <div class="footer">
+        <h2>About the Company</h2>
+        <p>Learn more about our company and why investing in this IPO is a great opportunity.</p>
+        <p>&copy; 2025 IPO Investments. All rights reserved.</p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
